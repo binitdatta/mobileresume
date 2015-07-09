@@ -13,7 +13,7 @@
 </head> 
 <body> 
 	<!-- Home Page -->
-	<div data-role="page" id="home">
+	<div data-role="page" data-theme="a" id="home">
 		<header data-role="header">
 			<h1>Binit Datta Phone : 773-318-7847</h1>
 			<h1>Email : binitdatta@gmail.com </h1>
@@ -37,9 +37,9 @@
 					<li>Excellent team player and motivator with good analytical, planning and interpersonal skills. </li>
 
 				</ul>
-			<p><a href="#profex" data-role="button" data-theme="b">Professional Experience</a></p>
-			<p><a href="#add" data-role="button">Education</a></p>
-			<p><a href="#add" data-role="button" data-theme="b">Technical Skills</a></p>
+			<p><a href="#profex" data-transition="flip" data-role="button" data-theme="b">Professional Experience</a></p>
+			<p><a href="#add" data-transition="flip" data-role="button">Education</a></p>
+			<p><a href="#add" data-transition="flip" data-role="button" data-theme="b">Technical Skills</a></p>
 
 
 		
@@ -53,21 +53,23 @@
 		<!-- Professional Experience Page -->
 	<div data-role="page" id="profex">
 		<header data-role="header">
-			<a href="index.html" id="cancel_btn" data-icon="arrow-l">Back</a>
+			<a href="#home" data-transition="flip" id="cancel_btn" data-icon="arrow-l">Back</a>
 			<h1>Professional Experience Summary</h1>
 		</header>
 		
 		<main data-role="content" id="content">
-				<p><a href="#sears" data-role="button" data-theme="b">Sears.com  - Ecommerce - Feb 2014 - till Date</a></p>
-				<p><a href="#ntrust" data-role="button" data-theme="b">Northern Trust, Chicago  - Banking - Oct 2013 - Feb 2014</a></p>
-				<p><a href="#apple" data-role="button" data-theme="b">Apple, Cupertino, CA  - Consumer Electronics - June 11, 2012 – Sept 2013</a></p>
+				<p><a href="#sears" data-role="button" data-transition="flip" data-theme="b">Sears.com  - Ecommerce - Feb 2014 - till Date</a></p>
+				<p><a href="#ntrust" data-role="button" data-transition="slide" data-theme="b">Northern Trust, Chicago  - Banking - Oct 2013 - Feb 2014</a></p>
+				<p><a href="#apple" data-role="button" data-transition="slideup"
+					data-theme="b">Apple, Cupertino, CA  - Consumer Electronics - June 11, 2012 – Sept 2013</a></p>
 				<p><a href="#navteq" data-role="button" data-theme="b">Nokia / Navteq Location & Content  - Navigation Nov 1, 2010 – June 5th, 2012</a></p>
-				<p><a href="#jostens" data-role="button" data-theme="b">Jostens Inc., Richfield, Minneapolis, MN  - Printing & Publishing</a></p>
-				<p><a href="#ovation" data-role="button" data-theme="b">Ovation Inc, Golden Valley, Minneapolis, MN  - Heahtlcare Jan 08 – Dec 0 </a></p>
-				<p><a href="#es" data-role="button" data-theme="b">Express Scripts Inc, Minneapolis, MN  - Pharmacy Benefit July 07 - Dec 07</a></p>
+				<p><a href="#jostens" data-role="button" data-transition="slidedown" data-theme="b">Jostens Inc., Richfield, Minneapolis, MN  - Printing & Publishing</a></p>
+				<p><a href="#ovation" data-role="button" data-transition="slidefade" data-theme="b">Ovation Inc, Golden Valley, Minneapolis, MN  - Heahtlcare Jan 08 – Dec 0 </a></p>
+				<p><a href="#es" data-role="button" data-transition="pop"
+					data-theme="b">Express Scripts Inc, Minneapolis, MN  - Pharmacy Benefit July 07 - Dec 07</a></p>
 				<p><a href="#wellsfargo" data-role="button" data-theme="b">WellsFargo Home Mortgage, Des Moines, IA Baniing	Aug 06 - July 07</a></p>
-				<p><a href="#bellsouth" data-role="button" data-theme="b">Bellsouth, USA, Atlanta, GA	Apr 05 to Jun 06  - Telecom</a></p>
-				<p><a href="#coalindia" data-role="button" data-theme="b">Coal India Pvt. Ltd. and its subsidiaries  - Feb 00-Mar 05-  Coal Mining</a></p>
+				<p><a href="#bellsouth" data-role="button" data-transition="flow" data-theme="b">Bellsouth, USA, Atlanta, GA	Apr 05 to Jun 06  - Telecom</a></p>
+				<p><a href="#coalindia" data-role="button" data-transition="turn" data-theme="b">Coal India Pvt. Ltd. and its subsidiaries  - Feb 00-Mar 05-  Coal Mining</a></p>
 
 		</main>
 		
@@ -77,17 +79,17 @@
 	</div>
 	
 	<!-- Sears Project Page -->
-	<div data-role="page" class="project" id="sears">
+	<div data-role="page" data-theme="a" class="project" id="sears">
 			<header data-role="header">
-			<a href="#profex" id="cancel_btn" data-icon="arrow-l">Back</a>
+			<a href="#profex" data-transition="flip" id="cancel_btn" data-icon="arrow-l">Back</a>
 			<h1>Sears.com Ecommerce Feb 2014 Till Date</h1>
 		</header>
 		
-		<main data-role="content" id="content">
+		<main data-role="content" data-theme="a" id="content">
 			<p>This is an high volume ecommerce shopping business to consumer shopping website. The entire site has a complex architecture and is divided into multiple separate teams. This particular project was related to the Product Details Page services. The PDP Services caters to other web sites such as Kmart.com, Kenmore.com as well as Craftsman.com.</p>
 			
 			<h2 align="center">Area of Contribution</h2>
-			<ul data-role="listview" data-inset="true"> 
+			<ul data-role="listview" data-theme="b" data-inset="true"> 
 				<li>Designed Developed Version Services for static assets such as JS and CSS files. </li>
 				<li>Designed Developed Rebates API. </li>
 				<li>Led, Designed Developed and implemented ReserveIt functionality. </li>
@@ -98,7 +100,7 @@
 				<li>Led, Designed and Developed Sears / Kmart Puertorico Services.</li>
 			</ul>
 			<h2 align="center">Technologies Used </h2>
-			<ul data-role="listview" data-inset="true"> 
+			<ul data-role="listview" data-theme="a" data-inset="true"> 
 				<li>Play Framework</li>
 				<li>Java 7</li>
 				<li>Apache Web Server 2.4 </li>
@@ -125,7 +127,7 @@
 	<!-- Sears Project Page -->
 	<div data-role="page" class="project" id="ntrust">
 			<header data-role="header">
-			<a href="#profex" id="cancel_btn" data-icon="arrow-l">Back</a>
+			<a href="#profex" data-transition="flip" id="cancel_btn" data-icon="arrow-l">Back</a>
 			<h1>Northern Trust - Commercial Banking - July 2013 - Feb 2014</h1>
 		</header>
 		
@@ -161,7 +163,7 @@
 	<!-- Sears Project Page -->
 	<div data-role="page" class="project" id="apple">
 			<header data-role="header">
-			<a href="#profex" id="cancel_btn" data-icon="arrow-l">Back</a>
+			<a href="#profex" data-transition="flip" id="cancel_btn" data-icon="arrow-l">Back</a>
 			<h1>Apple  - Consumer Electronics - June 2012 - June 2013</h1>
 		</header>
 		
@@ -196,7 +198,7 @@
 	<!-- Sears Project Page -->
 	<div data-role="page" class="project" id="navteq">
 			<header data-role="header">
-			<a href="#profex" id="cancel_btn" data-icon="arrow-l">Back</a>
+			<a href="#profex" data-transition="flip" id="cancel_btn" data-icon="arrow-l">Back</a>
 			<h1>Navteq / Nokia  - Navigation -  Nov 2011 - May 2012</h1>
 		</header>
 		
@@ -234,7 +236,7 @@
 	<!-- Sears Project Page -->
 	<div data-role="page" class="project" id="jostens">
 			<header data-role="header">
-			<a href="#profex" id="cancel_btn" data-icon="arrow-l">Back</a>
+			<a href="#profex" data-transition="flip" id="cancel_btn" data-icon="arrow-l">Back</a>
 			<h1>Jostens  - Printing - Janaury 2009 - Oct 2009</h1>
 		</header>
 		
@@ -270,7 +272,7 @@
 	<!-- Sears Project Page -->
 	<div data-role="page" class="project" id="ovation">
 			<header data-role="header">
-			<a href="#profex" id="cancel_btn" data-icon="arrow-l">Back</a>
+			<a href="#profex" data-transition="flip" id="cancel_btn" data-icon="arrow-l">Back</a>
 			<h1>Ovation  - Healthcare - January 2008 - Dec 2008</h1>
 		</header>
 		
@@ -306,7 +308,7 @@
 	<!-- Sears Project Page -->
 	<div data-role="page" class="project" id="es">
 			<header data-role="header">
-			<a href="#profex" id="cancel_btn" data-icon="arrow-l">Back</a>
+			<a href="#profex" data-transition="flip" id="cancel_btn" data-icon="arrow-l">Back</a>
 			<h1>Express Scripts  - Pharmacy Benefit - August 2006 - December 2006</h1>
 		</header>
 		
@@ -342,7 +344,7 @@
 	<!-- Sears Project Page -->
 	<div data-role="page" class="project" id="wellsfargo">
 			<header data-role="header">
-			<a href="#profex" id="cancel_btn" data-icon="arrow-l">Back</a>
+			<a href="#profex" data-transition="flip" id="cancel_btn" data-icon="arrow-l">Back</a>
 			<h1>Wellsfargo  - Banking - July 2007 - August 2006</h1>
 		</header>
 		
@@ -378,7 +380,7 @@
 	<!-- Sears Project Page -->
 	<div data-role="page" class="project" id="bellsouth">
 			<header data-role="header">
-			<a href="#profex" id="cancel_btn" data-icon="arrow-l">Back</a>
+			<a href="#profex" data-transition="flip" id="cancel_btn" data-icon="arrow-l">Back</a>
 			<h1>Bellsouth  - Telecom  - April 2005 - June 2006</h1>
 		</header>
 		
@@ -414,7 +416,7 @@
 	<!-- Sears Project Page -->
 	<div data-role="page" class="project" id="coalindia">
 			<header data-role="header">
-			<a href="#profex" id="cancel_btn" data-icon="arrow-l">Back</a>
+			<a href="#profex" data-transition="flip" id="cancel_btn" data-icon="arrow-l">Back</a>
 			<h1>Coal India Limited  - Coal Minining Feb 2000 - March 2005</h1>
 		</header>
 		
