@@ -62,8 +62,9 @@
 				<p><a href="#ntrust" data-role="button" data-transition="slide" data-theme="b">Northern Trust, Chicago  - Banking - Oct 2013 - Feb 2014</a></p>
 				<p><a href="#apple" data-role="button" data-transition="slideup"
 					data-theme="b">Apple, Cupertino, CA  - Consumer Electronics - June 11, 2012 – Sept 2013</a></p>
-				<p><a href="#navteq" data-role="button" data-theme="b">Nokia / Navteq Location & Content  - Navigation Nov 1, 2010 – June 5th, 2012</a></p>
-				<p><a href="#jostens" data-role="button" data-transition="slidedown" data-theme="b">Jostens Inc., Richfield, Minneapolis, MN  - Printing & Publishing</a></p>
+				<p><a href="#navteq" data-role="button" data-transition="flip" data-theme="b">Nokia / Navteq Location & Content  - Navigation May 1, 2010 – June 5th, 2012</a></p>
+				<p><a href="#pearson" data-role="button" data-theme="b">Perason VUE  - Computerised Testing- Nov 1, 2009 – April 2010, 2012</a></p>
+				<p><a href="#jostens" data-role="button" data-transition="slidedown" data-theme="b">Jostens Inc., Richfield, Minneapolis, MN  - Jan 2009 – Oct 2009 - Printing & Publishing</a></p>
 				<p><a href="#ovation" data-role="button" data-transition="slidefade" data-theme="b">Ovation Inc, Golden Valley, Minneapolis, MN  - Heahtlcare Jan 08 – Dec 0 </a></p>
 				<p><a href="#es" data-role="button" data-transition="pop"
 					data-theme="b">Express Scripts Inc, Minneapolis, MN  - Pharmacy Benefit July 07 - Dec 07</a></p>
@@ -203,25 +204,45 @@
 		</header>
 		
 		<main data-role="content" id="content">
-			<p>This is an high volume ecommerce shopping business to consumer shopping website. The entire site has a complex architecture and is divided into multiple separate teams. This particular project was related to the Product Details Page services. The PDP Services caters to other web sites such as Kmart.com, Kenmore.com as well as Craftsman.com.</p>
+			<p>The Probe Data application is a Core java based application that processes GPS data received from cell phone service providers to analyze missing road geometries to eventually help enhance Nokia road network products. It has a Hadoop cluster and associated Map Reduce programs to apply algorithms on GPS Data to learn about driving patterns on new roads. It also has, a series of core java components to create potential road images i.e. clusters based on GPS points.  Apart from these two main components, it also has a single web application for report generation, and a desktop application (C#) for viewing missing roads and a crowdsourcing framework for reviewing road networks maps. These components relies on Hadoop, JMS using QPid, core java, spring framework, hibernate and JDBC, and PLSQL.</p>
 			
 			<h2 align="center">Area of Contribution</h2>
 			<ul data-role="listview" data-inset="true"> 
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
+						<li>Architected / designed the team’s crowdsourcing framework.
+						<li>Working with Nokia Agile Work Group (AWG) to facilitate continuous deployment / delivery of code to production.</li>
+						<li>Exploring Puppet Master for seamless machine provisioning.</li>
+						<li>Architected, designed, developed crowdsourcing framework with spring, hibernate, GeoServver, Geotools to generate road, satellite and hybrid images to send to Clickworker.com for crowdsourcing new geometry detection.</li>
+						<li>Worked with GeoServer and GeoTools to install and configure Map Stores to generate Road network images from Oracle spatial databases.</li>
+						<li>Written java components for cluster (i.e. roads) analyzer meta data writer.</li>
+						<li>Written JUnit tests for existing components.</li>
+						<li>Written Core java components for Parking Lot analysis.</li>
+						<li>Written spring and hibernate components for Probe Console application.</li>
+						<li>Written new PLSQL data access packages for Cluster Analyzer.</li>
+						<li>Formed Oracle  Performance Tuning / Troubleshooting  strategy for the dev team.</li>
+						<li>Written new core java components for enhancing the Partioner application.</li>
+						<li>Analyzed Oracle execution plans for slow performing queries, recommended ways for improving response time.</li>
+						<li>Worked with DBAs to implement Query response time improvement.</li>
+						<li>Worked on implementing of scheduled of copy script prod database into System Test and UAT environments.</li>
+						<li>Profiled plsql packages using dbms_profiler build package.</li>
+						<li>Written Core java components for Database Writer.</li>
+
 			</ul>
 			<h2 align="center">Technologies Used </h2>
 			<ul data-role="listview" data-inset="true"> 
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
+			<li>Atlassiian JIRA for Scrum Agile process.</li>
+					<li>Java 6 SDK.</li>
+					<li>ANT.</li>
+					<li>Maven.</li>
+					<li>Spring framework Version 3.</li>
+					<li>Hibernate 3.x.</li>
+					<li>Apache QPid MOM.</li>
+					<li>Red Hat Linux.</li>
+					<li>Oracle 11G.</li>
+					<li>JBOSS 6.x.</li>
+					<li>Visual Studio.</li>
+					<li>SVN.</li>
+					<li>Eclipse IDE.</li>
+					<li>TOAD.</li>
 			</ul>
 		</main>
 		
@@ -231,6 +252,63 @@
 	</div>
 
 
+	 <!-- Pearson Project Page -->
+	<div data-role="page" class="project" id="pearson">
+			<header data-role="header">
+			<a href="#profex" data-transition="flip" id="cancel_btn" data-icon="arrow-l">Back</a>
+			<h1>Pearson VUE  - Computerized Testing - November 2009 - April 2010</h1>
+		</header>
+		
+		<main data-role="content" id="content">
+			<p>This is an internal website that helps Pearson users centrally view / manage capacity / availability for their entire test centers located all over the world in different regions and countries. This replaces a test center specific availability management desktop tool which is cumbersome and very time consuming. The GUI is delivered through Apache MyFaces and the service back end is implemented using apache CXF, JAX-WS and JAXB. The database is MS SQL Server.</p>
+			
+			<h2 align="center">Area of Contribution</h2>
+			<ul data-role="listview" data-inset="true"> 
+						<li>Architected / designed the team’s crowdsourcing framework.
+						<li>Working with Nokia Agile Work Group (AWG) to facilitate continuous deployment / delivery of code to production.</li>
+						<li>Exploring Puppet Master for seamless machine provisioning.</li>
+						<li>Architected, designed, developed crowdsourcing framework with spring, hibernate, GeoServver, Geotools to generate road, satellite and hybrid images to send to Clickworker.com for crowdsourcing new geometry detection.</li>
+						<li>Worked with GeoServer and GeoTools to install and configure Map Stores to generate Road network images from Oracle spatial databases.</li>
+						<li>Written java components for cluster (i.e. roads) analyzer meta data writer.</li>
+						<li>Written JUnit tests for existing components.</li>
+						<li>Written Core java components for Parking Lot analysis.</li>
+						<li>Written spring and hibernate components for Probe Console application.</li>
+						<li>Written new PLSQL data access packages for Cluster Analyzer.</li>
+						<li>Formed Oracle  Performance Tuning / Troubleshooting  strategy for the dev team.</li>
+						<li>Written new core java components for enhancing the Partioner application.</li>
+						<li>Analyzed Oracle execution plans for slow performing queries, recommended ways for improving response time.</li>
+						<li>Worked with DBAs to implement Query response time improvement.</li>
+						<li>Worked on implementing of scheduled of copy script prod database into System Test and UAT environments.</li>
+						<li>Profiled plsql packages using dbms_profiler build package.</li>
+						<li>Written Core java components for Database Writer.</li>
+
+			</ul>
+			<h2 align="center">Technologies Used </h2>
+			<ul data-role="listview" data-inset="true"> 
+				<li>Atlassiian JIRA for Scrum Agile process.</li>
+						<li>Java 6 SDK.</li>
+						<li>Apache CXF.</li>
+						<li>Maven.</li>
+						<li>Spring framework Version 2.5.x.</li>
+						<li>Hibernate </li>
+						<li>Apache QPid MOM.</li>
+						<li>Red Hat Linux.</li>
+						<li>Oracle 11G.</li>
+						<li>JBOSS 6.x.</li>
+						<li>Visual Studio.</li>
+						<li>SVN.</li>
+						<li>IntelliJ IDE.</li>
+						<li>TOAD.</li>
+						<li>JAXB</li>
+						<li>Apache MyFaces</li>
+						<li>SOAP UI</li>
+			</ul>
+		</main>
+		
+		<footer data-role="footer" id="footer">
+			<h4>Binit Datta &copy; 2015</h4>
+		</footer>
+	</div>
 
 
 	<!-- Sears Project Page -->
@@ -241,25 +319,49 @@
 		</header>
 		
 		<main data-role="content" id="content">
-			<p>This is an high volume ecommerce shopping business to consumer shopping website. The entire site has a complex architecture and is divided into multiple separate teams. This particular project was related to the Product Details Page services. The PDP Services caters to other web sites such as Kmart.com, Kenmore.com as well as Craftsman.com.</p>
+			<p>This is a website that helps Jostens clients [schools / colleges / organization, universities etc] create, design, edit, and upload images, print copies of Yearbooks. The websites page designer tool is template based and helps the user(s) get started in no time. The page designer has tools to add images, different shapes, text in various forms lines; the website helps the users keep history data as well. The front end of this application is built in Adobe Flex 3.x and the web services are implemented in J2EE, Spring Framework, Hibernate, Groovy, Grails. The Flex application communicates in XML with the j2ee backend. The marshalling and un-marshalling is taken care of by the JibX bind tool.</p>
 			
 			<h2 align="center">Area of Contribution</h2>
 			<ul data-role="listview" data-inset="true"> 
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
+						<li>Architected / designed the team’s crowdsourcing framework.
+						<li>Working with Nokia Agile Work Group (AWG) to facilitate continuous deployment / delivery of code to production.</li>
+						<li>Exploring Puppet Master for seamless machine provisioning.</li>
+						<li>Architected, designed, developed crowdsourcing framework with spring, hibernate, GeoServver, Geotools to generate road, satellite and hybrid images to send to Clickworker.com for crowdsourcing new geometry detection.</li>
+						<li>Worked with GeoServer and GeoTools to install and configure Map Stores to generate Road network images from Oracle spatial databases.</li>
+						<li>Written java components for cluster (i.e. roads) analyzer meta data writer.</li>
+						<li>Written JUnit tests for existing components.</li>
+						<li>Written Core java components for Parking Lot analysis.</li>
+						<li>Written spring and hibernate components for Probe Console application.</li>
+						<li>Written new PLSQL data access packages for Cluster Analyzer.</li>
+						<li>Formed Oracle  Performance Tuning / Troubleshooting  strategy for the dev team.</li>
+						<li>Written new core java components for enhancing the Partioner application.</li>
+						<li>Analyzed Oracle execution plans for slow performing queries, recommended ways for improving response time.</li>
+						<li>Worked with DBAs to implement Query response time improvement.</li>
+						<li>Worked on implementing of scheduled of copy script prod database into System Test and UAT environments.</li>
+						<li>Profiled plsql packages using dbms_profiler build package.</li>
+						<li>Written Core java components for Database Writer.</li>
+
 			</ul>
 			<h2 align="center">Technologies Used </h2>
 			<ul data-role="listview" data-inset="true"> 
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
+					<li>Oracle 10G database</li> 
+					<li>SQL</li> 
+					<li>Apache Tomcat 6.x</li> 
+					<li>Java 1.5</li> 
+					<li>Groovy</li>
+					<li>Grails</li>
+					<li>Hibernate</li>
+					<li>Spring Framework</li>
+					<li>IBM Websphere 6.1</li>
+					<li>Eclipse IDE</li>
+					<li>JUnit</li>
+					<li>JSP</li>
+					<li>JavaScript</li>
+					<li>CheckStyle</li>
+					<li>SCRUM practices</li> 
+					<li>SOA</li>
+					<li>Rational Cruise Control</li>
+					<li>Subversion</li>
 			</ul>
 		</main>
 		
@@ -277,25 +379,49 @@
 		</header>
 		
 		<main data-role="content" id="content">
-			<p>This is an high volume ecommerce shopping business to consumer shopping website. The entire site has a complex architecture and is divided into multiple separate teams. This particular project was related to the Product Details Page services. The PDP Services caters to other web sites such as Kmart.com, Kenmore.com as well as Craftsman.com.</p>
+			<p>It is a web based premium provider information search engine used by United Health Group internal nurses for health care providers, Physicians and Facilities / Hospital information retrieval, analysis and value added comparison. The current effort is on to publish this product for general public to be used over the Internet. .</p>
 			
 			<h2 align="center">Area of Contribution</h2>
 			<ul data-role="listview" data-inset="true"> 
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
+						<li>Architected / designed the team’s crowdsourcing framework.
+						<li>Working with Nokia Agile Work Group (AWG) to facilitate continuous deployment / delivery of code to production.</li>
+						<li>Exploring Puppet Master for seamless machine provisioning.</li>
+						<li>Architected, designed, developed crowdsourcing framework with spring, hibernate, GeoServver, Geotools to generate road, satellite and hybrid images to send to Clickworker.com for crowdsourcing new geometry detection.</li>
+						<li>Worked with GeoServer and GeoTools to install and configure Map Stores to generate Road network images from Oracle spatial databases.</li>
+						<li>Written java components for cluster (i.e. roads) analyzer meta data writer.</li>
+						<li>Written JUnit tests for existing components.</li>
+						<li>Written Core java components for Parking Lot analysis.</li>
+						<li>Written spring and hibernate components for Probe Console application.</li>
+						<li>Written new PLSQL data access packages for Cluster Analyzer.</li>
+						<li>Formed Oracle  Performance Tuning / Troubleshooting  strategy for the dev team.</li>
+						<li>Written new core java components for enhancing the Partioner application.</li>
+						<li>Analyzed Oracle execution plans for slow performing queries, recommended ways for improving response time.</li>
+						<li>Worked with DBAs to implement Query response time improvement.</li>
+						<li>Worked on implementing of scheduled of copy script prod database into System Test and UAT environments.</li>
+						<li>Profiled plsql packages using dbms_profiler build package.</li>
+						<li>Written Core java components for Database Writer.</li>
+
 			</ul>
 			<h2 align="center">Technologies Used </h2>
 			<ul data-role="listview" data-inset="true"> 
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
+					<li>Oracle 10G database</li> 
+					<li>SQL</li> 
+					<li>Apache Tomcat 6.x</li> 
+					<li>Java 1.5</li> 
+					<li>Groovy</li>
+					<li>Grails</li>
+					<li>Hibernate</li>
+					<li>Spring Framework</li>
+					<li>IBM Websphere 6.1</li>
+					<li>Eclipse IDE</li>
+					<li>JUnit</li>
+					<li>JSP</li>
+					<li>JavaScript</li>
+					<li>CheckStyle</li>
+					<li>SCRUM practices</li> 
+					<li>SOA</li>
+					<li>Rational Cruise Control</li>
+					<li>Subversion</li>
 			</ul>
 		</main>
 		
@@ -313,25 +439,49 @@
 		</header>
 		
 		<main data-role="content" id="content">
-			<p>This is an high volume ecommerce shopping business to consumer shopping website. The entire site has a complex architecture and is divided into multiple separate teams. This particular project was related to the Product Details Page services. The PDP Services caters to other web sites such as Kmart.com, Kenmore.com as well as Craftsman.com.</p>
+			<p>It is a web based enterprise application that serves as an MIS application for rebates analysis and approval of allocated payments done by the Client Share Batch application. It supports   setting up / querying Client Hierarchies like Super Client, Client Divisions, Plan Types, BPL and Groups and manage their relationships. It also supports creation / modification of rules for allocation and assigning the rules to various client hierarchy levels, Financial Close activities, and creation of Allocation Periods, Processed periods and review and approval of payments through various payment statuses. Additionally it has multiple groups of online drill down reports for various levels of management.</p>
 			
 			<h2 align="center">Area of Contribution</h2>
 			<ul data-role="listview" data-inset="true"> 
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
+						<li>Architected / designed the team’s crowdsourcing framework.
+						<li>Working with Nokia Agile Work Group (AWG) to facilitate continuous deployment / delivery of code to production.</li>
+						<li>Exploring Puppet Master for seamless machine provisioning.</li>
+						<li>Architected, designed, developed crowdsourcing framework with spring, hibernate, GeoServver, Geotools to generate road, satellite and hybrid images to send to Clickworker.com for crowdsourcing new geometry detection.</li>
+						<li>Worked with GeoServer and GeoTools to install and configure Map Stores to generate Road network images from Oracle spatial databases.</li>
+						<li>Written java components for cluster (i.e. roads) analyzer meta data writer.</li>
+						<li>Written JUnit tests for existing components.</li>
+						<li>Written Core java components for Parking Lot analysis.</li>
+						<li>Written spring and hibernate components for Probe Console application.</li>
+						<li>Written new PLSQL data access packages for Cluster Analyzer.</li>
+						<li>Formed Oracle  Performance Tuning / Troubleshooting  strategy for the dev team.</li>
+						<li>Written new core java components for enhancing the Partioner application.</li>
+						<li>Analyzed Oracle execution plans for slow performing queries, recommended ways for improving response time.</li>
+						<li>Worked with DBAs to implement Query response time improvement.</li>
+						<li>Worked on implementing of scheduled of copy script prod database into System Test and UAT environments.</li>
+						<li>Profiled plsql packages using dbms_profiler build package.</li>
+						<li>Written Core java components for Database Writer.</li>
+
 			</ul>
 			<h2 align="center">Technologies Used </h2>
-			<ul data-role="listview" data-inset="true"> 
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
+				<ul data-role="listview" data-inset="true"> 
+					<li>Oracle 10G database</li> 
+					<li>SQL</li> 
+					<li>Apache Tomcat 6.x</li> 
+					<li>Java 1.5</li> 
+					<li>Groovy</li>
+					<li>Grails</li>
+					<li>Hibernate</li>
+					<li>Spring Framework</li>
+					<li>IBM Websphere 6.1</li>
+					<li>Eclipse IDE</li>
+					<li>JUnit</li>
+					<li>JSP</li>
+					<li>JavaScript</li>
+					<li>CheckStyle</li>
+					<li>SCRUM practices</li> 
+					<li>SOA</li>
+					<li>Rational Cruise Control</li>
+					<li>Subversion</li>
 			</ul>
 		</main>
 		
@@ -349,25 +499,49 @@
 		</header>
 		
 		<main data-role="content" id="content">
-			<p>This is an high volume ecommerce shopping business to consumer shopping website. The entire site has a complex architecture and is divided into multiple separate teams. This particular project was related to the Product Details Page services. The PDP Services caters to other web sites such as Kmart.com, Kenmore.com as well as Craftsman.com.</p>
+			<p>CORE (Common Opportunities, Results, and Experiences): Implementation / Customization of Enterprise Originations (EO) product from CGI-AMS.            CORE is the umbrella project that is broken down into three functional tiers with associated delivery teams: Customer Facing, Deal Processing, and Deal Decisioning. The primary business driver of CORE is to allow the business to meet speed to market needs; this pervades into almost every aspect of the loan origination process using Service Oriented Architectures (SOA) and Web Services.</p>
 			
 			<h2 align="center">Area of Contribution</h2>
-			<ul data-role="listview" data-inset="true"> 
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
+		<ul data-role="listview" data-inset="true"> 
+						<li>Architected / designed the team’s crowdsourcing framework.
+						<li>Working with Nokia Agile Work Group (AWG) to facilitate continuous deployment / delivery of code to production.</li>
+						<li>Exploring Puppet Master for seamless machine provisioning.</li>
+						<li>Architected, designed, developed crowdsourcing framework with spring, hibernate, GeoServver, Geotools to generate road, satellite and hybrid images to send to Clickworker.com for crowdsourcing new geometry detection.</li>
+						<li>Worked with GeoServer and GeoTools to install and configure Map Stores to generate Road network images from Oracle spatial databases.</li>
+						<li>Written java components for cluster (i.e. roads) analyzer meta data writer.</li>
+						<li>Written JUnit tests for existing components.</li>
+						<li>Written Core java components for Parking Lot analysis.</li>
+						<li>Written spring and hibernate components for Probe Console application.</li>
+						<li>Written new PLSQL data access packages for Cluster Analyzer.</li>
+						<li>Formed Oracle  Performance Tuning / Troubleshooting  strategy for the dev team.</li>
+						<li>Written new core java components for enhancing the Partioner application.</li>
+						<li>Analyzed Oracle execution plans for slow performing queries, recommended ways for improving response time.</li>
+						<li>Worked with DBAs to implement Query response time improvement.</li>
+						<li>Worked on implementing of scheduled of copy script prod database into System Test and UAT environments.</li>
+						<li>Profiled plsql packages using dbms_profiler build package.</li>
+						<li>Written Core java components for Database Writer.</li>
+
 			</ul>
 			<h2 align="center">Technologies Used </h2>
 			<ul data-role="listview" data-inset="true"> 
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
+					<li>Oracle 10G database</li> 
+					<li>SQL</li> 
+					<li>Apache Tomcat 6.x</li> 
+					<li>Java 1.5</li> 
+					<li>Groovy</li>
+					<li>Grails</li>
+					<li>Hibernate</li>
+					<li>Spring Framework</li>
+					<li>IBM Websphere 6.1</li>
+					<li>Eclipse IDE</li>
+					<li>JUnit</li>
+					<li>JSP</li>
+					<li>JavaScript</li>
+					<li>CheckStyle</li>
+					<li>SCRUM practices</li> 
+					<li>SOA</li>
+					<li>Rational Cruise Control</li>
+					<li>Subversion</li>
 			</ul>
 		</main>
 		
@@ -385,25 +559,49 @@
 		</header>
 		
 		<main data-role="content" id="content">
-			<p>This is an high volume ecommerce shopping business to consumer shopping website. The entire site has a complex architecture and is divided into multiple separate teams. This particular project was related to the Product Details Page services. The PDP Services caters to other web sites such as Kmart.com, Kenmore.com as well as Craftsman.com.</p>
+			<p>Core Services forms the business logic layer of Dial and DSL customers of BellSouth’s Broadband business. Core Services session beans were exposed as Web services deployed in Weblogic App Server to server as the backbone of the SOA architecture. Core Services is the functional back end for a assortment of client application that are responsible from Dial Ordering (REAP), different types DSL ordering (Oracle CRM), Customer Care Tool (CCTOOL), Billing Change Tool (BCTOOL), XML Gateway, CRG to name a few. .</p>
 			
 			<h2 align="center">Area of Contribution</h2>
 			<ul data-role="listview" data-inset="true"> 
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
+						<li>Architected / designed the team’s crowdsourcing framework.
+						<li>Working with Nokia Agile Work Group (AWG) to facilitate continuous deployment / delivery of code to production.</li>
+						<li>Exploring Puppet Master for seamless machine provisioning.</li>
+						<li>Architected, designed, developed crowdsourcing framework with spring, hibernate, GeoServver, Geotools to generate road, satellite and hybrid images to send to Clickworker.com for crowdsourcing new geometry detection.</li>
+						<li>Worked with GeoServer and GeoTools to install and configure Map Stores to generate Road network images from Oracle spatial databases.</li>
+						<li>Written java components for cluster (i.e. roads) analyzer meta data writer.</li>
+						<li>Written JUnit tests for existing components.</li>
+						<li>Written Core java components for Parking Lot analysis.</li>
+						<li>Written spring and hibernate components for Probe Console application.</li>
+						<li>Written new PLSQL data access packages for Cluster Analyzer.</li>
+						<li>Formed Oracle  Performance Tuning / Troubleshooting  strategy for the dev team.</li>
+						<li>Written new core java components for enhancing the Partioner application.</li>
+						<li>Analyzed Oracle execution plans for slow performing queries, recommended ways for improving response time.</li>
+						<li>Worked with DBAs to implement Query response time improvement.</li>
+						<li>Worked on implementing of scheduled of copy script prod database into System Test and UAT environments.</li>
+						<li>Profiled plsql packages using dbms_profiler build package.</li>
+						<li>Written Core java components for Database Writer.</li>
+
 			</ul>
 			<h2 align="center">Technologies Used </h2>
 			<ul data-role="listview" data-inset="true"> 
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
+					<li>Oracle 10G database</li> 
+					<li>SQL</li> 
+					<li>Apache Tomcat 6.x</li> 
+					<li>Java 1.5</li> 
+					<li>Groovy</li>
+					<li>Grails</li>
+					<li>Hibernate</li>
+					<li>Spring Framework</li>
+					<li>IBM Websphere 6.1</li>
+					<li>Eclipse IDE</li>
+					<li>JUnit</li>
+					<li>JSP</li>
+					<li>JavaScript</li>
+					<li>CheckStyle</li>
+					<li>SCRUM practices</li> 
+					<li>SOA</li>
+					<li>Rational Cruise Control</li>
+					<li>Subversion</li>
 			</ul>
 		</main>
 		
@@ -421,25 +619,49 @@
 		</header>
 		
 		<main data-role="content" id="content">
-			<p>This is an high volume ecommerce shopping business to consumer shopping website. The entire site has a complex architecture and is divided into multiple separate teams. This particular project was related to the Product Details Page services. The PDP Services caters to other web sites such as Kmart.com, Kenmore.com as well as Craftsman.com.</p>
+			<p>This project is to develop and implement a Web-Based Integrated Transactional Enterprise Application system, named CoalNet Application, for Coal India Limited (CIL) and all of its Subsidiary Companies covering all of their business areas and served as a Service Oriented backbone of en entire company using session beans exposed as Web Services..   .</p>
 			
 			<h2 align="center">Area of Contribution</h2>
 			<ul data-role="listview" data-inset="true"> 
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
+						<li>Architected / designed the team’s crowdsourcing framework.
+						<li>Working with Nokia Agile Work Group (AWG) to facilitate continuous deployment / delivery of code to production.</li>
+						<li>Exploring Puppet Master for seamless machine provisioning.</li>
+						<li>Architected, designed, developed crowdsourcing framework with spring, hibernate, GeoServver, Geotools to generate road, satellite and hybrid images to send to Clickworker.com for crowdsourcing new geometry detection.</li>
+						<li>Worked with GeoServer and GeoTools to install and configure Map Stores to generate Road network images from Oracle spatial databases.</li>
+						<li>Written java components for cluster (i.e. roads) analyzer meta data writer.</li>
+						<li>Written JUnit tests for existing components.</li>
+						<li>Written Core java components for Parking Lot analysis.</li>
+						<li>Written spring and hibernate components for Probe Console application.</li>
+						<li>Written new PLSQL data access packages for Cluster Analyzer.</li>
+						<li>Formed Oracle  Performance Tuning / Troubleshooting  strategy for the dev team.</li>
+						<li>Written new core java components for enhancing the Partioner application.</li>
+						<li>Analyzed Oracle execution plans for slow performing queries, recommended ways for improving response time.</li>
+						<li>Worked with DBAs to implement Query response time improvement.</li>
+						<li>Worked on implementing of scheduled of copy script prod database into System Test and UAT environments.</li>
+						<li>Profiled plsql packages using dbms_profiler build package.</li>
+						<li>Written Core java components for Database Writer.</li>
+
 			</ul>
 			<h2 align="center">Technologies Used </h2>
-			<ul data-role="listview" data-inset="true"> 
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
-				<li>Designed Developed Version Services for static assets such as JS and CSS files </li>
+				<ul data-role="listview" data-inset="true"> 
+					<li>Oracle 10G database</li> 
+					<li>SQL</li> 
+					<li>Apache Tomcat 6.x</li> 
+					<li>Java 1.5</li> 
+					<li>Groovy</li>
+					<li>Grails</li>
+					<li>Hibernate</li>
+					<li>Spring Framework</li>
+					<li>IBM Websphere 6.1</li>
+					<li>Eclipse IDE</li>
+					<li>JUnit</li>
+					<li>JSP</li>
+					<li>JavaScript</li>
+					<li>CheckStyle</li>
+					<li>SCRUM practices</li> 
+					<li>SOA</li>
+					<li>Rational Cruise Control</li>
+					<li>Subversion</li>
 			</ul>
 		</main>
 		
