@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-	<title>Mobiletodo</title>
+	<title>BinitDatta Online Resume</title>
 	<link rel="stylesheet" href="css/jquery.mobile-1.4.2.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	
@@ -19,11 +19,25 @@
 				Binit Datta : <img src="images/phone-black.png"> 773-318-7847 <img src="images/mail-small.png"> : binitdatta@gmail.com</a>
 			</h1>
 		</header>
+
+		<header data-role="header">
+		<div>
+			<div  style="float:left;width:15%">
+				  <img style="margin: 10px 10px 0px 20px;float:left" src="images/profilelarge.jpg">
+			</div>
+			<div   style="float:right;width:85%" >
+				<div>
+					<p style="font-size:14pt;font-weight:normal">Welcome to binitdatta.com. I am a well rounded Information Technology Professional currently serving as an architect at Sears. Over 20 years now, I have mixed technology skills with business domain knowledge to serve in more than one fortune 500 companies in business verticals including Manufacturing, Coal Mining, Telecom, Banking, Healthcare, Pharmacy Benefit and Retail Ecommerce. I have led teams of different sizes following Agile and waterfall, mentored people from freshmen into productive resources quickly, design solutions ranging from JavaScript, CSS and HTML in the front end, high performing java web applications in the middle tier. I have also designed and tuned multiple Oracle databases in more than one companies. I can clearly envision, for the entire technology stack , from front end, middle tier, and backend, both parts of the solution and as a whole. This is my USP which results in zero false starts and rework, eliminating delivery delays, issues in production and increasing customer satisfaction.</p>
+				</div>
+			</div>
+		</div>
+		</header>
 		
+		<div style="float:left;">
 		<main data-role="content" id="content">
 				<p><h1 align="center">Career Summary</h1></p>
 				<ul id="todos" data-role="listview" data-filter="true" data-inset="true">
-					<li>Proven lead designer / architect track record over 18 years for leading and owning end to end SDLC of different types.</li>
+					<li>Proven lead designer / architect track record over 20 years for leading and owning end to end SDLC of different types.</li>
 					<li data-theme="b">Experienced working for clients in more than 9 different business verticals including process and discrete manufacturing, Coal Mining, Banking, Mortgage, Healthcare, Telecom, Retail etc.</li>
 					<li>Has the background of communicating successfully to Vice Presidents and above in their return on investment terms and explained decision made in software projects.</li>
 					<li data-theme="b">Has the background of communicating successfully to junior and senior developers in their low level technology terms, through design documents, verbal presentation, while boarding etc.</li>
@@ -39,16 +53,14 @@
 
 				</ul>
 			<p><a href="#profex" data-transition="flip" data-role="button" data-theme="b">Professional Experience</a></p>
-			<p><a href="#add" data-transition="flip" data-role="button">Education</a></p>
+			<p><a href="#education" data-transition="flip" data-role="button">Education</a></p>
 			<p><a href="#add" data-transition="flip" data-role="button" data-theme="b">Technical Skills</a></p>
-
-
-		
 		</main>
 		
 		<footer data-role="footer" id="footer">
 			<h4>Binit Datta &copy; 2015</h4>
 		</footer>
+		 </div>
 	</div>
 	
 		<!-- Professional Experience Page -->
@@ -80,10 +92,41 @@
 		</main>
 		
 		<footer data-role="footer" id="footer">
-			<h4>MobileTodo &copy; 2014</h4>
+			<h4>Binit Datta &copy; 2015</h4>
 		</footer>
 	</div>
-	
+
+			<!-- Education Page -->
+	<div data-role="page" data-theme="a" id="education">
+		<header data-role="header">
+			<a href="#home" data-transition="flip" id="cancel_btn" data-icon="arrow-l">Back</a>
+			<h1>
+				Binit Datta : <img src="images/phone-black.png"> 773-318-7847 <img src="images/mail-small.png"> : binitdatta@gmail.com</a>
+			</h1>
+		</header>
+		
+		<main data-role="content" id="education">
+				<p><h1 align="center">Education Summary</h1></p>
+				<ul id="educationul" data-role="listview" data-filter="true" data-inset="true">
+					<li data-theme="b">Master Of Science in Information Technilogy (Enterprise Software Development concentration) 3.946 GPA</li>
+					<li>Bachalor Of Science in Information Technilogy (Enterprise Software Development concentration) 3.866 GPA</li>
+				</ul>
+		</main>
+
+		<main data-role="content" id="education">
+				<p><h1 align="center">Professional Certification Summary</h1></p>
+				<ul id="educationul" data-role="listview" data-filter="true" data-inset="true">
+					<li data-theme="b">Sun Certified Enterprise Architect (SCEA) Cleared in 2010</li>
+					<li>Cloudera Certifited Hadoop Developer Cleared in 2012</li>
+					<li data-theme="b">Cloudera Certifited Hadoop Administrator Cleared in 2012</li>
+				</ul>
+		</main>
+		
+		<footer data-role="footer" id="footer">
+			<h4>Binit Datta &copy; 2015</h4>
+		</footer>
+	</div>
+
 	<!-- Sears Project Page -->
 	<div data-role="page" data-theme="a" class="project" id="sears">
 
@@ -708,49 +751,6 @@
 		
 		<footer data-role="footer" id="footer">
 			<h4>Binit Datta &copy; 2015</h4>
-		</footer>
-	</div>
-
-
-	
-	<!-- Add Page -->
-	<div data-role="page" id="add">
-		<header data-role="header">
-			<a href="index.html" id="cancel_btn" data-icon="delete">Cancel</a>
-			<h1>Add A Todo</h1>
-			<a href="index.html" data-ajax="false" data-icon="check" data-theme="b" onclick="$('#add_form').submit();">Save</a>
-		</header>
-		
-		<main data-role="content" id="content">
-			<form id="add_form">
-				<input type="text" name="todo_name" id="todo_name" placeholder="Add Todo Name">
-				<input type="date" name="todo_date" id="todo_date">
-			</form>
-		</main>
-		
-		<footer data-role="footer" id="footer">
-			<h4>MobileTodo &copy; 2014</h4>
-		</footer>
-	</div>
-	
-	<!-- Edit Page -->
-	<div data-role="page" id="edit">
-		<header data-role="header">
-			<a href="index.html" id="cancel_btn" data-icon="delete">Cancel</a>
-			<h1>Edit Todo</h1>
-			<a href="index.html" data-icon="check" data-theme="b" onclick="$('#edit_form').submit();">Save</a>
-		</header>
-		
-		<main data-role="content" id="content">
-			<form id="edit_form">
-				<input type="text" name="todo_name_edit" id="todo_name_edit" placeholder="Add Todo Name">
-				<input type="date" name="todo_date_edit" id="todo_date_edit">
-				<a href="#" id="delete" data-role="button">Delete</a>
-			</form>
-		</main>
-		
-		<footer data-role="footer" id="footer">
-			<h4>MobileTodo &copy; 2014</h4>
 		</footer>
 	</div>
 </body>
